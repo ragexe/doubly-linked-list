@@ -13,6 +13,15 @@ class Node {
             this.next = null;
         }
     }
+
+    reverseForward(){
+        let temp = this.prev;
+        this.prev = this.next;
+        this.next = temp;
+        if (this.prev !== null){
+            this.prev.reverseForward();
+        }
+    }
 }
 
 
