@@ -1,3 +1,4 @@
+
 const Node = require('../src/node');
 const LinkedList = require('../src/linked-list');
 
@@ -18,8 +19,8 @@ describe('LinkedList', () => {
 
             list.append(data);
 
-            expect(list._tail).to.be.an.instanceof(Node)
-            expect(list._head).to.be.an.instanceof(Node)
+            expect(list._tail).to.be.an.instanceof(Node);
+            expect(list._head).to.be.an.instanceof(Node);
         });
 
         it('should add new data to the end of list', () => {
