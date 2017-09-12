@@ -3,3 +3,18 @@ node_modules
 app.bundle.js
 app.bundle.js.map
 npm-debug*
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.idea/doubly-linked-list.iml
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/vcs.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+package-lock.json
