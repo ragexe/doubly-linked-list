@@ -88,7 +88,7 @@ class LinkedList {
     isEmpty() {
         return this.length === 0 && this._head === null && this._tail === null;
     }
-    
+
     clear() {
         for (let node = this._head; node !== null; node = node.next) {
             let prevNode = node.prev;
